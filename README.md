@@ -36,4 +36,10 @@ The dashboard visually highlights key findings such as churn rates by contract t
 - **Tableau** → dashboard creation and data storytelling.  
 - **Git & GitHub** → project version control and portfolio hosting.  
 
+## 🔑 Key Insights
+- **Churned customers spend less**: On average, churned customers spent about \$540 compared to \$750 for non-churned customers.  
+- **Monthly contracts drive churn**: Customers on month-to-month contracts churned at much higher rates than those on yearly or two-year contracts.  
+- **Lower usage is linked to churn**: Churned customers used the service less frequently (about 14 times/month vs 15 times/month for retained customers).
+
+
 ---
