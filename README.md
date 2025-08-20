@@ -1,21 +1,39 @@
 # Customer Churn Analysis Project
 
-## Overview
-This project demonstrates a full-cycle data analysis workflow to identify key drivers of customer churn. The process includes data cleaning with Python (Pandas), exploratory analysis with SQL, and the creation of an interactive, shareable dashboard in Tableau.
+## 📌 Overview
+This project demonstrates a full-cycle data analysis workflow to identify key drivers of customer churn.  
+The process included **data cleaning with Python**, **exploratory analysis with SQL**, and the creation of an **interactive dashboard in Tableau** to communicate insights.
 
-## Tableau Dashboard
-You can view the final interactive dashboard by clicking the link below. The dashboard visually presents the key findings from the data analysis.
+## 📊 Tableau Dashboard
+- Download the interactive Tableau workbook: [**Churn Dashboard (.twbx)**](Churn%20Table.twbx)  
+- Dashboard Screenshot:  
+  ![Churn Dashboard](churn_dashboard.png)
 
-[**View the Tableau Dashboard**]()
+The dashboard visually highlights key findings such as churn rates by contract type, average spend differences, and usage frequency.
 
-## Project Steps
-1.  **Data Cleaning:** Used Python and Pandas to clean and prepare a raw dataset.
-2.  **Data Analysis:** Utilized SQL to query the data and uncover key insights about churn.
-3.  **Visualization:** Created an interactive dashboard in Tableau to tell the story of the data.
+## 🔎 Project Workflow
+1. **Data Cleaning (Python + Pandas)**  
+   - Loaded the raw churn dataset into Pandas.  
+   - Handled missing values, standardized column names, and removed duplicates.  
+   - Exported a clean dataset for further analysis.  
 
-## Tools Used
-- Python
-- Pandas
-- SQLite
-- Tableau
-- Git & GitHub
+2. **Data Analysis (SQL with SQLite)**  
+   - Queried the cleaned dataset to uncover trends (e.g., churn by contract type, tenure, spending patterns).  
+   - Used filtering, aggregation, and joins to answer specific business questions.  
+
+3. **Visualization (Tableau)**  
+   - Connected Tableau to the cleaned dataset.  
+   - Built an interactive dashboard with churn vs. spend, subscription type, and usage patterns.  
+   - Added key insights text to make the findings clear to stakeholders.  
+
+4. **Version Control (Git & GitHub)**  
+   - Used Git for tracking project changes.  
+   - Published the project repo to GitHub as part of my analytics portfolio.  
+
+## 🛠 Tools Used
+- **Python & Pandas** → data cleaning, preprocessing, and export.  
+- **SQLite (SQL)** → querying and exploratory analysis of churn patterns.  
+- **Tableau** → dashboard creation and data storytelling.  
+- **Git & GitHub** → project version control and portfolio hosting.  
+
+---
